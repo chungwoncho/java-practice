@@ -9,7 +9,7 @@ public class cleric {
     final int min_mp = 10;
 }
 
-    void selfaid() {
+void selfaid() {
         if (mp - 5 != 0) {
             hp = max_hp
         }
