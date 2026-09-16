@@ -10,8 +10,15 @@ public class cleric {
 }
 
 void selfaid() {
-        if (mp - 5 != 0) {
-            hp = max_hp
+    if (mp - 5 != 0) {
+        hp = max_hp
         }
 }
 
+int pray(int sec) {
+    while (sec > 0) {
+        mp = mp + (int) (Math.random() * 3); // 0, 1, 2 중 하나
+        sec--;
+    }
+    return mp;
+}
