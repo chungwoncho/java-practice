@@ -5,6 +5,13 @@ public class cleric {
     string name;
     int hp;
     int mp;
-    static final int max_hp = 50;
-    static final int min_mp = 10;
+    final int max_hp = 50;
+    final int min_mp = 10;
 }
+
+    void selfaid() {
+        if (mp - 5 != 0) {
+            hp = max_hp
+        }
+}
+
